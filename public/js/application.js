@@ -1,8 +1,10 @@
 $(document).ready(function() {
   $('.question').on('submit', embbedImage);
+  // $('.question').on('click', fortuneLady);
 });
 
 function embbedImage(e){
+
   e.preventDefault();
   console.log('embedding image');
   link = $(this);
@@ -15,7 +17,7 @@ function embbedImage(e){
     method: method,
     data: data
   })
-  
+
   console.log(url, method);
   request.done(function(response){
     console.log(response)
@@ -23,8 +25,9 @@ function embbedImage(e){
     // res = r.find('div')
     // console.log(res)
     // res.on('click', likePost);
-    link.find('div').html(response);
-    // $('#new-post-form').get(0).reset() 
+    link.find('.gif').html(response);
+
+    // $('#new-post-form').get(0).reset()
   })
 
   request.fail(function(response){
@@ -32,3 +35,11 @@ function embbedImage(e){
   })
 }
 
+// function playSound(){
+
+// }
+
+// function fortuneLady(){
+//   $(".fortune").effect( "bounce",
+//           {times:10}, 300 );
+// }
