@@ -5,5 +5,9 @@ end
 post '/' do
   option = params[:option]
   @image = Question.search(option)
-  erb :"/questions/giphy"
+  if request.xhr?
+    erb :"/questions/giphy", layout: false
+  else
+    erb :"/questions/giphy"
+  end
 end
