@@ -25,7 +25,7 @@ function embbedImage(e){
     // res = r.find('div')
     // console.log(res)
     // res.on('click', likePost);
-    link.find('div').html(response);
+    link.find('.gif').html(response);
 
     // $('#new-post-form').get(0).reset()
   })
