@@ -5,7 +5,7 @@ helpers do
               'When you look at a person, you see a person - not a rank, not a class, not a title.',
               'You feel Far too many people are looking for the right person, instead of trying to be the right person.',
               'Your thoughts about life is, Life is hell, at some point we all just have to get used to it.',
-              'You are a complicated person with a simple life and you are the reason for everything that ever happened to you.']
+              'You are a complicated person with a simple life and you think you are the reason for everything that ever happened to you.']
     sample2 = ['Your friends and loved ones will come to admire and depend on them for their optimism. Your unshaken belief that all people are inherently good, perhaps simply misunderstood, lends itself to an incredibly resilient attitude in the face of hardship.',
                'You combine your intuitive nature with your open-mindedness to allow people to see things from unconventional perspectives. Being able to connect many far-flung dots into a single theme, it’s no wonder that you are celebrated poets and authors.',
               'A live-and-let-live attitude comes naturally to you, and you dislike being constrained by rules. you give the benefit of the doubt too, and so long as their principles and ideas are not being challenged, they’ll support others’ right to do what they think is right.',

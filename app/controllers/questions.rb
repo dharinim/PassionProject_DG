@@ -1,7 +1,3 @@
-# get '/' do
-#   erb :"/questions/show"
-# end
-
 get '/questions' do
   erb :"/questions/show"
 end
