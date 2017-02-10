@@ -1,0 +1,13 @@
+<div container>
+  <h4>Welcome <%= @name%>!</h4>
+  <div class="imgcontainer">
+    <h4> Hmm I have read your past and found these things:</h4>
+    <%characters = about%>
+    <ul>
+      <% characters.each do |character| %>
+        <li><%= character%></li>
+      <%end%>
+    </ul>
+    <a href="/questions">Do you wanna know about your future</a>
+  </div>
+</div>
