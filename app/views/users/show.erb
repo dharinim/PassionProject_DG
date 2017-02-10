@@ -5,12 +5,15 @@
       <h4>Hmm... hmm.. I see it </h4>
       <h4>I see your past...........</h4>
       <%characters = about%>
+      <div class="containerUserShow">
       <ul>
         <% characters.each do |character| %>
           <li><%= character%></li>
         <%end%>
       </ul>
+
       <a href="/questions"><font color="FF00CC">Do you wanna know about your future</font></a>
+      </div>
     </div>
   </div>
 </body>
