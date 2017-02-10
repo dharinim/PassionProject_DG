@@ -1,4 +1,4 @@
 get '/' do
   @image = Question.search
-  erb :questions
+  erb :"/questions/show"
 end
