@@ -21,7 +21,7 @@ require 'sinatra'
 require "sinatra/reloader" if development?
 
 require 'erb'
-
+require 'httparty'
 require 'hirb'
 Hirb.enable
 
