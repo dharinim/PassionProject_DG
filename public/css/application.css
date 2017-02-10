@@ -1,4 +1,62 @@
+
 header{
   height:150px;
-  background-color: red;
+  background-color: rgba(13, 77, 77, 1);
+  position: fixed;
+  width:100%;
+  border-bottom:1px solid white;
 }
+header h1{
+  text-align: center;
+  margin-left: -100px;
+  color:white;
+  font-size: 3em;
+ /* font-family: 'Barrio', cursive;*/
+  font-family: 'Bangers', cursive;
+
+}
+.spacer{
+  height:130px;
+
+}
+.fortune{
+  background: url("Fortune-Teller.png");
+  background-size: cover;
+  width:100px;
+  height:110px;
+  margin-top: 10px;
+  float:left;
+}
+.allQuestions{
+  padding-top: 20px;
+  background-color: rgba(102, 153, 153, .1);
+}
+
+article{
+  text-align: center;
+  width:70%;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+article h2{
+  font-size: 3em;
+}
+
+.btn{
+  width: 50%;
+  height:50px;
+  border-radius:10px;
+  background-color: pink;
+  /*border-style: solid;*/
+  border:solid 1px white;
+  box-shadow: 5px 5px 20px #888888;
+  font-size: 2em;
+  background-color: rgba(255, 255, 255, .9);
+}
+
+.gif{
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
