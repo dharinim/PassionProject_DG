@@ -109,3 +109,14 @@ img{
 .blackFade{
   background-color:black;
 }
+
+.indexArticle{
+  margin-top: 300px;
+
+}
+
+.formInfo{
+  margin-bottom: 20px;
+  color:white;
+  font-size: 2em;
+}
