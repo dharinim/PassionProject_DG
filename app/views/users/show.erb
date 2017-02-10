@@ -1,15 +1,19 @@
 <body background="http://orig09.deviantart.net/c548/f/2013/328/b/9/a_psychic_gift_by_nuclear_pilot-d6vh7e9.png">
-  <div container>
-    <h2>Welcome<%= @name%>!</h2>
+  <div class="userShow">
+    <h2>Welcome <%= @name%>!</h2>
     <div class="imgcontainer">
-      <h4> Hmm I have read your past and found these things:</h4>
+      <h4>Hmm... hmm.. I see it </h4>
+      <h4>I see your past...........</h4>
       <%characters = about%>
+      <div class="containerUserShow">
       <ul>
         <% characters.each do |character| %>
           <li><%= character%></li>
         <%end%>
       </ul>
-      <a href="/questions">Do you wanna know about your future</a>
+
+      <a href="/questions"><font color="FF00CC">Do you wanna know about your future</font></a>
+      </div>
     </div>
   </div>
 </body>
