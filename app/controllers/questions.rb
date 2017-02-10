@@ -1,3 +1,3 @@
 get '/' do
-  erb :questions
+  erb :'/questions/show'
 end
