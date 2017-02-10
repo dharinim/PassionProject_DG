@@ -1,11 +1,20 @@
 $(document).ready(function() {
   $('.question').on('submit', embbedImage);
   // $('.question').on('click', fortuneLady);
+  // $("body").append(htmlSound);
 });
+
+var htmlSound ='<audio autoplay><source src="css/dadada.mp3" type="audio/mp3"></video>'
+$("body").append(htmlSound);
 
 function embbedImage(e){
 
   e.preventDefault();
+  // $('.spiral').delay(6000).show();
+
+
+
+
   console.log('embedding image');
   link = $(this);
   var url = link.attr('action');
@@ -25,7 +34,30 @@ function embbedImage(e){
     // res = r.find('div')
     // console.log(res)
     // res.on('click', likePost);
-    link.find('.gif').html(response);
+    // link.find('.gif').html(response).delay(4000);
+$('.allQuestions').css('background-color','black')
+$("body").append(htmlSound);
+    link.find('.spiral').fadeIn().delay(4000).queue(function(){
+  link.find('.spiral').show();
+  $('.allQuestions').css('background-color','rgba(102, 153, 153, .1)')
+  link.find('.spiral').hide();
+});
+
+    link.find('.gif').fadeIn().delay(4000).queue(function(){
+      link.find('.gif').html(response);
+
+    })
+
+
+
+
+
+
+
+//   $('.spiral').fadeIn().delay(4000).queue(function(){
+//   $('.spiral').show();
+//   $('.spiral').hide();
+// });
 
     // $('#new-post-form').get(0).reset()
   })
